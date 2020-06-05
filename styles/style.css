@@ -1,0 +1,117 @@
+body {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{ 
+  width: 100%;
+  height: 400px;
+  /*   margin-bottom: 40px; */
+  /* background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png"); */
+  background-image: url("../images/first-website-header.jpg");
+  background-size: 100% 100%;
+  /* to make it relative to the absolute title */
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  font-size: 36px;
+/*   margin-bottom: 55px; */
+}
+.title {
+  position: absolute;
+  left: 285px;
+  margin-top: 235px;
+}
+
+.anakin  {
+  margin-top: -20px ;
+  font-weight: 200;
+  font-size: 74px;
+}
+
+.container {
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  text-align: left;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+blockquote {
+  width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  /* to make relative to the absolute "before blockquote" and to use its top and left functions */
+  position: relative;
+  font-family: 'Abril Fatface', cursive;
+  background-color: #444;
+  color: white;
+  font-size: 47px;
+  padding: 50px;
+  line-height: 52px;
+  letter-spacing: 1px;
+  text-align: left;
+/*   margin-bottom: 55px; */
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 125px;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 400px;
+  margin-bottom: 25px;
+}
+
+section {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: -25px;
+}
+
+.main_ul {
+  font-size: 19px;
+}
+
+ul {
+/*   margin-bottom: 35px; */
+  list-style-type: square;
+  font-size: 15px;
+}
+
+hr {
+  width: 780px;
+  height: 4px;
+  border: none;
+  background-color: black;
+  align: center;
+  margin-left: -20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
