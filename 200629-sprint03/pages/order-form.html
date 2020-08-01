@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/order-form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                <div>
+                    <label for="name">Név: *</label>
+                    <input id="name" name="name" type="text" required>
+                </div>
+                <div>
+                    <label for="email">E-mail cím: *</label>
+                    <input id="email" name="email" type="email" required>
+                </div>
+                <div>
+                    <label for="address">Cím: *</label>
+                    <input id="address" name="address" type="text" required>
+                </div>
+                <div>
+                    <label for="comment">Megjegyzés:</label>
+                    <textarea id="comment" name="comment" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Rendelés</legend>
+                <div>
+                    <span>Extra feltét:</span>
+                    <input id="nothing" name="nothing" type="checkbox">
+                    <label for="nothing">nothing</label>
+                </div>
+                <div>
+                    <input id="cheese" name="cheese" type="checkbox">
+                    <label for="cheese">cheese</label>
+                </div>
+                <div>
+                    <input id="double-cheese" name="double-cheese" type="checkbox">
+                    <label for="double-cheese">double-cheese</label>
+                </div>
+                <div>
+                    <input id="double-meat" name="double-meat" type="checkbox">
+                    <label for="double-meat">double-meat</label>
+                </div>
+                <div>
+                    <input id="double-sauce" name="double-sauce" type="checkbox">
+                    <label for="double-sauce">double-sauce</label>
+                </div>
+
+                <div>
+                    <span>Extra feltét:</span>
+                    <input id="nothingR" name="extra" type="radio">
+                    <label for="nothingR">nothing</label>
+                </div>
+                <div>
+                    <input id="cheeseR" name="extra" type="radio">
+                    <label for="cheeseR">cheese</label>
+                </div>
+                <div>
+                    <input id="double-cheeseR" name="extra" type="radio">
+                    <label for="double-cheeseR">double-cheese</label>
+                </div>
+                <div>
+                    <input id="double-meatR" name="extra" type="radio">
+                    <label for="double-meatR">double-meat</label>
+                </div>
+                <div>
+                    <input id="double-sauceR" name="extra" type="radio">
+                    <label for="double-sauceR">double-sauce</label>
+                </div>
+
+                <div>
+                    <span><label for="sauce">Szósz:</label></span>
+                    <select name="sauce" id="sauce">
+                        <option value="1" selected>szósz 1 </option>
+                        <option value="2">szósz 2 </option>
+                    </select>
+                </div>
+                <div>
+                    <span><label for="quantity">Mennyiség:</label></span>
+                    <input id="quantity" name="quantity" type="number" min="1" max="10" value="1">
+
+                </div <div>
+                <span><button>Rendelés leadása</button> Ár: 1200 Ft</span>
+
+            </fieldset>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

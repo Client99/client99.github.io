@@ -1,0 +1,37 @@
+body {
+    background-color: #f0f0f0;
+}
+
+input,
+textarea {
+    display: block;
+    /* border-color: blue; */
+}
+
+.container {
+    padding: 15px;
+    border: solid 1px;
+    color: #41529c;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    display: inline;
+}
+
+span {
+    color: brown;
+    display: block;
+    padding: 10px 0px 0px 0px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: yellow;
+}

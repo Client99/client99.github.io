@@ -1,0 +1,63 @@
+body {
+    background-color: #f0f0f0;
+}
+
+#bgd-img-container {
+    position: relative;
+}
+
+#bgd-img-container:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../img/programmer.jpg");
+    width: 100%;
+    height: 952px;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.login-div {
+    padding: 15px;
+    border: solid 1px;
+    color: #c0c0c0;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;
+    background-color: beige;
+}
+
+.login-div button:hover {
+    box-shadow: 2px 2px #c0c0c0;
+}
+
+.login-div input:focus {
+    background-color: yellow;
+    box-shadow: 2px 2px #c0c0c0;
+}
+
+.form-control {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    color: black;
+}
+
+ul {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:last-child {
+    text-decoration: underline;
+}
+
+ul li:nth-child(2) {
+    color: blue;
+}
